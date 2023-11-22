@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
 	float y = 0, x = 0;
-	cout << "请输入x:" << endl;
+	cout << "璇疯緭鍏:" << endl;
 	cin >> x;
 	if (x <= 0 || x >= 10) {
-		cout << "您输入的x不在定义域内" << endl;
+		cout << "鎮ㄨ緭鍏ョ殑x涓嶅湪瀹氫箟鍩熷唴" << endl;
 	}
 	else {
 		if (x > 0 && x < 1) {
