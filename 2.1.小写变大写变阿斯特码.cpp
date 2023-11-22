@@ -3,14 +3,14 @@ using namespace std;
 
 int main() {
 	char a1, a2;
-	cout << "ÇëÊäÈëÒ»¸ö×Ö·û" << endl;
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦" << endl;
 	cin >> a1;
 	if (a1 >= 97 && a1 <= 122) {
 		a2 = a1 - 32;
-		cout << "¸Ã×Ö·ûµÄ´óĞ´Îª£º" << a2 << endl;
+		cout << "è¯¥å­—ç¬¦çš„å¤§å†™ä¸ºï¼š" << a2 << endl;
 	}
 	else {
-		cout << "¸Ã×Ö·ûµÄASCIIÂëÎª£º" << (int)a1 << endl;
+		cout << "è¯¥å­—ç¬¦çš„ASCIIç ä¸ºï¼š" << (int)a1 << endl;
 	}
 	return 0;
 }
