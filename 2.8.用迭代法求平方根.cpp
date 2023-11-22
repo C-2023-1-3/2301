@@ -2,15 +2,15 @@
 using namespace std;
 int main() {
 	double a=0, xi=0, xi1=0;
-	cout << "ÇëÊäÈëÒ»¸öaÖµ:" << endl;
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªaå€¼:" << endl;
 	cin >> a;
 	xi = a;
 	xi1 = (xi + a / xi) / 2;
-	while (xi1 - xi >= 10e-5) {
+	while (fabs(xi1 - xi) >= 10e-5) {
 		xi = xi1;
 		xi1= (xi + a / xi) / 2;
 	}
-	cout << "Æ½·½¸ùÎª£º" << endl;
+	cout << "å¹³æ–¹æ ¹ä¸ºï¼š" << endl;
 	cout << xi1;
 	return 0;
 }
