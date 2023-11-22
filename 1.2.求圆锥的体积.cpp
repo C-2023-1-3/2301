@@ -3,14 +3,14 @@ using namespace std;
 #define pi 3.14
 
 int main() {
-	cout << "ÇëÊäÈëÔ²×¶µÄµ×°ë¾¶ºÍ×¶¸ß" << endl;
+	cout << "è¯·è¾“å…¥åœ†é”¥çš„åº•åŠå¾„å’Œé”¥é«˜" << endl;
 	int r = 0;
 	int h = 0;
 	cin >> r;
 	cin >> h;
 	float v = 0;
 	v = (1.0/ 3) * pi * r * r * h;
-	cout << "Ô²×¶µÄÌå»ýÊÇ:" <<v<< endl;
+	cout << "åœ†é”¥çš„ä½“ç§¯æ˜¯:" <<v<< endl;
 
 	return 0;
 }
