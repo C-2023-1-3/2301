@@ -19,17 +19,17 @@ int max(int x, int y) {
 }
 int main() {
 	int a = 0, b = 0, t = 0, q = 0;
-	cout << "请输入两个正整数" << endl;
+	cout << "璇疯緭鍏ヤ袱涓鏁存暟" << endl;
 	cin >> a >> b;
 	t = min(a, b);
 	while (a % t != 0 || b % t != 0) {
 		--t;
 	}
-	cout << "最大公约数为：" << t << endl;
+	cout << "鏈�澶у叕绾︽暟涓猴細" << t << endl;
 	q = max(a, b);
 	while (q % a != 0 || q % b != 0) {
 		++q;
 	}
-	cout << "最小公倍数为：" << q << endl;
+	cout << "鏈�灏忓叕鍊嶆暟涓猴細" << q << endl;
 	return 0;
 }
