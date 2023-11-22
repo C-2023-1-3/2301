@@ -2,24 +2,24 @@
 using namespace std;
 int main() {
 	while (true) {
-		cout << "ÇëÊäÈë0»ò1" << endl;
-		cout << "0--ÍË³ö¼ÆËãÆ÷" << endl;
-		cout << "1--½øÐÐ¼ÆËã" << endl;
+		cout << "è¯·è¾“å…¥0æˆ–1" << endl;
+		cout << "0--é€€å‡ºè®¡ç®—å™¨" << endl;
+		cout << "1--è¿›è¡Œè®¡ç®—" << endl;
 		int j = 0;
 		cin >> j;
 		if (j == 1) {
 			float a = 0, b = 0;
 			char c;
-			cout << "ÇëÊäÈëÒ»¸ö°üº¬Á½¸öÊý×ÖÓëÒ»¸öÔËËã·ûµÄÊ½×Ó" << endl;
-			cout << "Èç£º1+1" << endl;
+			cout << "è¯·è¾“å…¥ä¸€ä¸ªåŒ…å«ä¸¤ä¸ªæ•°å­—ä¸Žä¸€ä¸ªè¿ç®—ç¬¦çš„å¼å­" << endl;
+			cout << "å¦‚ï¼š1+1" << endl;
 			cin >> a >> c >> b;
 			if (c != '-' && c != '+' && c != '*' && c != '/') {
-				cout << "ÔËËã·û·Ç·¨" << endl;
+				cout << "è¿ç®—ç¬¦éžæ³•" << endl;
 				cout << "" << endl;
 			}
 			else {
 				if (c == '/' && b == 0) {
-					cout << "·ÖÄ¸²»ÄÜÎªÁã" << endl;
+					cout << "åˆ†æ¯ä¸èƒ½ä¸ºé›¶" << endl;
 					cout << "" << endl;
 				}
 				else {
