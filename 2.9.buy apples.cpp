@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-	int j = 0;//¼ÇÂ¼ÌìÊı 
-	double sum = 0;//×Ü·ÑÓÃ
-	int i;//¼ÇÂ¼µ¥Ìì¹ºÂò¸öÊı
+	int j = 0;//è®°å½•å¤©æ•° 
+	double sum = 0;//æ€»è´¹ç”¨
+	int i;//è®°å½•å•å¤©è´­ä¹°ä¸ªæ•°
 	for ( i = 2; i <= 100; i *= 2) {
 		sum = sum + i * 0.8;
 		j++;
@@ -12,7 +12,7 @@ int main() {
 	i /= 2;
 	sum -= 0.8 * i  ;
 	double average = sum / j;
-	cout << "×î¶àÂò" << i << "¸öÆ»¹û" << endl;
+	cout << "æœ€å¤šä¹°" << i << "ä¸ªè‹¹æœ" << endl;
 	cout << "the average money is:" << average << endl;
 	return 0;
 }
